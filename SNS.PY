@@ -4,6 +4,7 @@ import requests, time, re, sys
 url = 'https://sneakersnstuff.typeform.com/app/form/submit/Hathk3'
 print("SNS raffle script for the Mars Yard sneakers written by @fockniketalk")
 print("If u bought this from some1 please contact me on twitter @fockniketalk")
+print("btw if u need verified nike accounts usa & eu hit my dm @fockniketalk")
 
 headers = {'User-Agent':
            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'}
