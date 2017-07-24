@@ -31,7 +31,7 @@ def dot_trick(username): # PUT UR GMAIL IN LINE 54
 def main(limit, emails):
     for i in range(0, limit):
         payload ={
-            'form[email:Fi1mS3bZn3VF]': emails [i], #change to your email
+            'form[email:Fi1mS3bZn3VF]': emails [i], #PUT UR GMAIL WITH @GMAIL.COM IN LINE 54
 			'form[list:56641463][choices]': sizes[random.randint(0, 11)],
             'form[landed_at]': '1500901708', # don't change
             'form[language]': 'en', # don't change
