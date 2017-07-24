@@ -1,4 +1,4 @@
-import requests, time, re, sys
+import requests, time, re, sys, random
 #reload(sys)
 #sys.setdefaultencoding('utf-8')
 url = 'https://sneakersnstuff.typeform.com/app/form/submit/Hathk3'
@@ -9,7 +9,9 @@ print("btw if u need verified nike accounts usa & eu hit my dm @fockniketalk")
 headers = {'User-Agent':
            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'}
 
-def dot_trick(username):
+sizes = ['US 6','US 7', 'US 8', 'US 8.5', 'US 9', 'US 9.5', 'US 10' ,'US 10.5' ,'US 11' ,'US 11.5' ,'US 12', 'US 13']
+
+def dot_trick(username): # PUT UR GMAIL IN LINE 51
     emails = list()
     username_length = len(username)
     combinations = pow(2, username_length - 1)
@@ -30,7 +32,7 @@ def main(limit, emails):
     for i in range(0, limit):
         payload ={
             'form[email:Fi1mS3bZn3VF]': emails [i], #change to your email
-	    'form[list:56641463][choices]': 'US 7', #change to ur size, for example US 9
+			'form[list:56641463][choices]': sizes[random.randint(0, 11)],
             'form[landed_at]': '1500901708', # don't change
             'form[language]': 'en', # don't change
             'form[terms:QS4P6gmSVp8s]': '1', # don't change
@@ -49,6 +51,6 @@ def main(limit, emails):
             print(time.strftime("%H:%M:%S") + " / Successfully entered SNS raffle mars yard, written by @fockniketalk")
         else:
             print(time.strftime("%H:%M:%S") + " / Could not enter!")
-emails = ('FockNikeTalk') #Gmail only
+emails = dot_trick('FockNikeTalk') #Gmail ONLY, PUT UR GMAIL HERE
 main (len(emails),emails) 
 exit()
