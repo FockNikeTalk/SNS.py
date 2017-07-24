@@ -30,7 +30,7 @@ def main(limit, emails):
     for i in range(0, limit):
         payload ={
             'form[email:Fi1mS3bZn3VF]': emails [i], #change to your email
-			'form[list:56641463][choices]': 'US 7', #change to ur size, for example US 9
+	    'form[list:56641463][choices]': 'US 7', #change to ur size, for example US 9
             'form[landed_at]': '1500901708', # don't change
             'form[language]': 'en', # don't change
             'form[terms:QS4P6gmSVp8s]': '1', # don't change
