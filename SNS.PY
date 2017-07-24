@@ -11,7 +11,7 @@ headers = {'User-Agent':
 
 sizes = ['US 6','US 7', 'US 8', 'US 8.5', 'US 9', 'US 9.5', 'US 10' ,'US 10.5' ,'US 11' ,'US 11.5' ,'US 12', 'US 13']
 
-def dot_trick(username): # PUT UR GMAIL IN LINE 51
+def dot_trick(username): # PUT UR GMAIL IN LINE 54
     emails = list()
     username_length = len(username)
     combinations = pow(2, username_length - 1)
