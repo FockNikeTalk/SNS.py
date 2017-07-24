@@ -2,12 +2,12 @@
 Enters mars yard raffle !
 
 Install python2  here: https://www.python.org/
-U need to install the following modules:
-Requests
-time
-re
-sys
-Random
+✿U need to install the following modules:
+✿Requests
+✿time
+✿re
+✿sys
+✿Random
 
 Goodluck !
 
