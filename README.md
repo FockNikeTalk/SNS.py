@@ -4,7 +4,7 @@ Enters mars yard raffle !
 
 * Install python2  here: https://www.python.org/
 
-   - **U need to install the following modules:**
+- **U need to install the following modules:**
 
 * Requests
 
@@ -18,4 +18,5 @@ Enters mars yard raffle !
 
 _Goodluck !_
 **Pleas Google how to intstall python2 modules**
+
 **Thanks ycoppthesels and footcarts for helping me some stuff !**  
