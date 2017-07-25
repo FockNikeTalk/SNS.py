@@ -3,17 +3,18 @@ Mass enter the SNS mars yard 2.0 Raffle !
 Enters mars yard raffle !
 
 * Install python2  here: https://www.python.org/
-*U need to install the following modules:
 
-*Requests
+**U need to install the following modules:**
 
-*time
+* Requests
 
-*re
+* time
 
-*sys
+* re
 
-*Random
+* sys
+
+* Random
 
 _Goodluck !_
 
