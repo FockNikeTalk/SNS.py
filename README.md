@@ -1,4 +1,3 @@
-===
 Mass enter the SNS mars yard 2.0 Raffle !
 ===
 Enters mars yard raffle !
